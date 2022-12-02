@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿#include <iostream>
 #include <string>
 #include <windows.h>
@@ -15,10 +16,39 @@ VOID WINAPI Sleep(
 void pushX(int num) {
     for (int i = 0; i < num; i++)
         cout << " ";
+=======
+#include <iostream>
+#include <Windows.h>
+#include <iomanip>
+
+
+using namespace std;
+
+void yesOrNo()
+{
+	char input;
+	cin >> input;
+	if (input == 'N')
+	{
+		cout << "Thank you for playing!";
+	}
+	if (input == 'Y')
+	{
+		system("cls");
+		cout << "You may continue!";
+	}
+	else if (input != 'N' && input != 'Y')
+	{
+		cout << "Incorrect input!" << endl;
+		cout << "Please choose another option!" << endl;
+		yesOrNo();
+	}
+>>>>>>> 9008a8559bc1187feb3c4cc42dc5a4c03b85d438
 }
 
 void mainMenu()
 {
+<<<<<<< HEAD
     system("color 3");
     int menuaction;
     system("color 3");
@@ -69,6 +99,13 @@ void mainMenu()
     cout << endl;
     cout << endl;
     cout << R"(
+=======
+	system("color 3");
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	cout << R"(
+>>>>>>> 9008a8559bc1187feb3c4cc42dc5a4c03b85d438
 			  _    _                    _____ _      _ 
 			 | |  | |                  / ____(_)    | |
 			 | |__| | __ _ _ __   __ _| |  __ _ _ __| |
@@ -78,6 +115,7 @@ void mainMenu()
 			                      __/ |                
 			                     |___/                                                                                                                                                                                                                                                       
  )" << endl;
+<<<<<<< HEAD
     cout << setw(52) << "Welcome to hanggirl!" << endl;
     cout << " " << endl;
     cout << setw(54) << "1. Access the game." << endl;
@@ -110,6 +148,14 @@ void hang()
     cout << setw(206) << "|You may see it everyday outside|" << endl;
     cout << setw(206) << "|      Its green and brown      |" << endl;
     cout << setw(205) << "-------------------------------" << endl;
+=======
+	cout << setw(57) << "Welcome to hanggirl!" << endl;
+	cout << setw(62)<< "If you want to play the game type: Y" << endl;
+	cout << setw(60) << "If you want to quit type: N" << endl;
+	cout << setw(54) << "Your choice";
+
+	yesOrNo();
+>>>>>>> 9008a8559bc1187feb3c4cc42dc5a4c03b85d438
 }
 int main()
 {

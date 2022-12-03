@@ -130,6 +130,54 @@ void pushX(int num) {
         cout << " ";
 }
 
+void game()
+{
+    cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------" << endl;
+    cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "You can see your word in this screen| " << endl;
+    cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 4 letters    | " << endl;
+    cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "-" << "-------------------------------------" << endl;
+    cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << endl;
+    cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
+    cout << setw(18) << "./#.        @@@*     /@@%  .    @@,  @@@,         %  ,*        #@@&     &" << endl;
+    cout << setw(18) << "(@&                @    &        *@@@@@@(           # * *        ||   " << endl;
+    cout << setw(18) << "           @@. (      (           @@@@@&           &(    *       ||  " << endl;
+    cout << setw(18) << "          @,/   &     .           &@@@@@           .            @&@3@   " << endl;
+    cout << setw(18) << "             .#,   #,            (@@@@@@                        @&@3@     " << endl;
+    cout << setw(18) << "                     /##          @@@@@(                          @     " << endl;
+    cout << setw(18) << "                                 @@@@@@@                            " << endl;
+    cout << setw(18) << "                                .@@@@@@@@                                 " << endl;
+    cout << setw(18) << "                                @@@@@@@@@@,                          " << endl;
+    cout << setw(18) << "                               @@@@@@@@@@@                         " << endl;
+    cout << setw(18) << "                              @@@@@@@@@@@@@@                           " << endl;
+    cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
+    cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
+    cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
+    cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "The word:" << setw(10) << "E" << "nter letter: ";
+    char letter;
+    for (int i = 0; i < 5; i++)
+    {
+        cin >> letter;
+        if (letter == 'T' || letter == 'R' || letter == 'E' || letter == 't' || letter == 'r' || letter == 'e')
+        {
+            if (letter == 'T')
+            {
+                cout << setw(-22) << letter;
+                cout << setw(22);
+            }
+            if (letter == 'R')
+            {
+                cout << setw(-21) << letter;
+                cout << setw(21);
+            }
+            if (letter == 'E')
+            {
+                cout << setw(-20) << letter;
+                cout << setw(20);
+            }
+        }
+        cout << " ,";
+    }
+}
 
 
 
@@ -578,6 +626,8 @@ void mainMenu()
 
         system("CLS");
         registration();
+        system("CLS");
+        game();
     }
     if (menuaction == 3)
     {

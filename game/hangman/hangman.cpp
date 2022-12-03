@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 #include <windows.h>
 #include <sys/types.h>
@@ -7,49 +6,133 @@
 
 using namespace std;
 
-string name;
 
-VOID WINAPI Sleep(
-    _In_ DWORD dwMilliseconds
-);
+void registration()
+{
+    string username;
+    string yn;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << setw(50) << "T";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "A";
+    Sleep(50);
+    cout << "c";
+    Sleep(50);
+    cout << "c";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "h";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "g";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "m";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+
+    cout << "r";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "g";
+    Sleep(50);
+
+    cout << "i";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "r";
+
+
+    Sleep(2000);
+    system("cls");
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << setw(50) << "To begin with please enter your username : ";
+    cin >> username;
+    cout << endl;
+    cout << endl;
+    cout << setw(50) << "Are you sure you want to be called " << username  <<  " Y / N ?" << endl;
+    cin >> yn;
+    if (yn == "Y" || "y")
+    {
+        system("cls");
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << setw(50) << "Great " << username << " we welcome you to Hanggirl!";
+        Sleep(1000);
+        system("cls");
+        cout << "Loading. . .";
+        Sleep(2000);
+        //  funkciq za igrata
+    }
+    else if (yn == "N" || "n")
+    {
+        registration();
+    }
+    else
+    {
+        cout << "Looks like the parameters you have entered aren't valid, please try again!";
+    }
+
+}
+
+
 
 void pushX(int num) {
     for (int i = 0; i < num; i++)
         cout << " ";
-=======
-#include <iostream>
-#include <Windows.h>
-#include <iomanip>
-
-
-using namespace std;
-
-void yesOrNo()
-{
-	char input;
-	cin >> input;
-	if (input == 'N')
-	{
-		cout << "Thank you for playing!";
-	}
-	if (input == 'Y')
-	{
-		system("cls");
-		cout << "You may continue!";
-	}
-	else if (input != 'N' && input != 'Y')
-	{
-		cout << "Incorrect input!" << endl;
-		cout << "Please choose another option!" << endl;
-		yesOrNo();
-	}
->>>>>>> 9008a8559bc1187feb3c4cc42dc5a4c03b85d438
 }
 
 void mainMenu()
 {
-<<<<<<< HEAD
-    system("color 3");
     int menuaction;
     system("color 3");
     cout << endl;
@@ -85,10 +168,8 @@ void mainMenu()
     Sleep(50);
     cout << "e";
     Sleep(50);
-    cout << "s";
+    cout << "s" << endl;
     Sleep(50);
-    cout << R"(♠️                                                                                                                                                                                                                                                     
- )";
     Sleep(2000);
     system("cls");
 
@@ -99,13 +180,6 @@ void mainMenu()
     cout << endl;
     cout << endl;
     cout << R"(
-=======
-	system("color 3");
-	cout << endl;
-	cout << endl;
-	cout << endl;
-	cout << R"(
->>>>>>> 9008a8559bc1187feb3c4cc42dc5a4c03b85d438
 			  _    _                    _____ _      _ 
 			 | |  | |                  / ____(_)    | |
 			 | |__| | __ _ _ __   __ _| |  __ _ _ __| |
@@ -115,7 +189,6 @@ void mainMenu()
 			                      __/ |                
 			                     |___/                                                                                                                                                                                                                                                       
  )" << endl;
-<<<<<<< HEAD
     cout << setw(52) << "Welcome to hanggirl!" << endl;
     cout << " " << endl;
     cout << setw(54) << "1. Access the game." << endl;
@@ -125,39 +198,16 @@ void mainMenu()
     cout << endl;
     cout << setw(55) << "Your choice: ";
     cin >> menuaction;
+    if (menuaction == 1)
+    {
+
+        system("CLS");
+        registration();
+    }
 }
 
-
-
-
-
-void hint()
-{
-    cout << setw(205) << "-------------------------------" << endl;
-    cout << setw(206) << "|             Hints:            |" << endl;
-    cout << setw(206) << "|    Your word have 4 letters   |" << endl;
-    cout << setw(206) << "|You may see it everyday outside|" << endl;
-    cout << setw(206) << "|      Its green and brown      |" << endl;
-    cout << setw(205) << "-------------------------------" << endl;
-}
-void hang()
-{
-    cout << setw(205) << "*******" << endl;
-    cout << setw(206) << "*" << endl;
-    cout << setw(206) << "*" << endl;
-    cout << setw(206) << "|You may see it everyday outside|" << endl;
-    cout << setw(206) << "|      Its green and brown      |" << endl;
-    cout << setw(205) << "-------------------------------" << endl;
-=======
-	cout << setw(57) << "Welcome to hanggirl!" << endl;
-	cout << setw(62)<< "If you want to play the game type: Y" << endl;
-	cout << setw(60) << "If you want to quit type: N" << endl;
-	cout << setw(54) << "Your choice";
-
-	yesOrNo();
->>>>>>> 9008a8559bc1187feb3c4cc42dc5a4c03b85d438
-}
 int main()
 {
+
     mainMenu();
 }

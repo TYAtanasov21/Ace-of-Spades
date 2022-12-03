@@ -7,6 +7,7 @@
 using namespace std;
 
 
+
 void registration()
 {
     string username;
@@ -76,7 +77,6 @@ void registration()
     Sleep(50);
     cout << "r";
 
-
     Sleep(2000);
     system("cls");
     cout << endl;
@@ -125,12 +125,387 @@ void registration()
 }
 
 
-
 void pushX(int num) {
     for (int i = 0; i < num; i++)
         cout << " ";
 }
 
+
+
+
+//
+void rules()
+{
+    cout << endl;
+    cout << endl;
+    cout << setw(10) << "R";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << "l";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << ":";
+    Sleep(50);
+    cout << "1";
+    Sleep(50);
+    cout << ".";
+    Sleep(50);
+    cout << "R";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "d";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "l";
+    Sleep(50);
+    cout << "l";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "h";
+    Sleep(50);
+    cout << "i";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+
+    cout << "t";
+    Sleep(50);
+    cout << "s" << endl;
+    Sleep(50);
+    cout << setw(16) << "2";
+    Sleep(50);
+
+    cout << ".";
+    Sleep(50);
+    cout << "Y";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "h";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "v";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "5";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "m";
+    Sleep(50);
+    cout << "p";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "g";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "h";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "w";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << "d";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "h";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << "w";
+    Sleep(50);
+    cout << "i";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "y";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "l";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << "e" << endl;
+    Sleep(50);
+    cout << setw(16) << "3";
+    Sleep(50);
+    cout << ".";
+    Sleep(50);
+    cout << "I";
+    Sleep(50);
+    cout << "f";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "y";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "g";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "i";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+    cout << "c";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "c";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "y";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "l";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "m";
+    Sleep(50);
+    cout << "p";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << ",";
+    Sleep(50);
+    cout << "b";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "i";
+    Sleep(50);
+    cout << "f";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "y";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "g";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "c";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "c";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "y";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "d";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+    cout << "'";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "l";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+    cout << "y";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "m";
+    Sleep(50);
+    cout << "p";
+    Sleep(50);
+    cout << "t" << endl;
+    Sleep(100);
+    int a;
+    cout << setw(200) << "Click 1 to go back ";
+    cin >> a;
+    if (a == 1)
+    {
+        system("cls");
+    }
+}
 void mainMenu()
 {
     int menuaction;
@@ -204,7 +579,22 @@ void mainMenu()
         system("CLS");
         registration();
     }
+    if (menuaction == 3)
+    {
+
+        system("CLS");
+        rules();
+        mainMenu();
+    }
 }
+
+//
+
+
+
+
+
+
 
 int main()
 {

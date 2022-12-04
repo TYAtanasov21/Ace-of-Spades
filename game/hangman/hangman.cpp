@@ -637,17 +637,7 @@ void mainMenu()
         mainMenu();
     }
 }
-
-//
-
-
-
-
-
-
-
 int main()
 {
-
     mainMenu();
 }

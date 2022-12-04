@@ -1,7 +1,7 @@
 <h1 align = "center">Ace of Spades</h1>
 
 <p align="center">
-    <img src="images/logo.png" alt = "logo">
+    <img src="images/Logo.png" alt = "logo">
 </p>
 
 <hr>

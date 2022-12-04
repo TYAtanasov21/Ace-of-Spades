@@ -132,13 +132,13 @@ void pushX(int num)
 void game()
 {
     cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-"
-         << "-------------------------------------" << endl;
+        << "-------------------------------------" << endl;
     cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|"
-         << "You can see your word in this screen| " << endl;
+        << "You can see your word in this screen| " << endl;
     cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|"
-         << "    Your word has 4 letters    | " << endl;
+        << "    Your word has 4 letters    | " << endl;
     cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "-"
-         << "-------------------------------------" << endl;
+        << "-------------------------------------" << endl;
     cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << endl;
     cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
     cout << setw(18) << "./#.        @@@*     /@@%  .    @@,  @@@,         %  ,*        #@@&     &" << endl;
@@ -156,7 +156,7 @@ void game()
     cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
     cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
     cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "The word:" << setw(10) << "E"
-         << "nter letter: ";
+        << "nter letter: ";
     char letter;
     for (int i = 0; i < 5; i++)
     {

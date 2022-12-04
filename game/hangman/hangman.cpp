@@ -128,7 +128,7 @@ void pushX(int num)
         cout << " ";
 }
 
-// the actual game
+// the real game
 void game()
 {
     cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-"

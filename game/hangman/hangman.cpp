@@ -6,8 +6,7 @@
 
 using namespace std;
 
-
-
+// create registration form
 void registration()
 {
     string username;
@@ -92,7 +91,7 @@ void registration()
     cin >> username;
     cout << endl;
     cout << endl;
-    cout << setw(50) << "Are you sure you want to be called " << username  <<  " Y / N ?" << endl;
+    cout << setw(50) << "Are you sure you want to be called " << username << " Y / N ?" << endl;
     cin >> yn;
     if (yn == "Y" || "y")
     {
@@ -111,7 +110,7 @@ void registration()
         system("cls");
         cout << "Loading. . .";
         Sleep(2000);
-        //  funkciq za igrata
+        //  call the func for the game
     }
     else if (yn == "N" || "n")
     {
@@ -121,21 +120,25 @@ void registration()
     {
         cout << "Looks like the parameters you have entered aren't valid, please try again!";
     }
-
 }
 
-
-void pushX(int num) {
+void pushX(int num)
+{
     for (int i = 0; i < num; i++)
         cout << " ";
 }
 
+// the actual game
 void game()
 {
-    cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------" << endl;
-    cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "You can see your word in this screen| " << endl;
-    cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 4 letters    | " << endl;
-    cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "-" << "-------------------------------------" << endl;
+    cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-"
+         << "-------------------------------------" << endl;
+    cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|"
+         << "You can see your word in this screen| " << endl;
+    cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|"
+         << "    Your word has 4 letters    | " << endl;
+    cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "-"
+         << "-------------------------------------" << endl;
     cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << endl;
     cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
     cout << setw(18) << "./#.        @@@*     /@@%  .    @@,  @@@,         %  ,*        #@@&     &" << endl;
@@ -152,7 +155,8 @@ void game()
     cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
     cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
     cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
-    cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "The word:" << setw(10) << "E" << "nter letter: ";
+    cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "The word:" << setw(10) << "E"
+         << "nter letter: ";
     char letter;
     for (int i = 0; i < 5; i++)
     {
@@ -179,9 +183,7 @@ void game()
     }
 }
 
-
-
-//
+// rules function
 void rules()
 {
     cout << endl;
@@ -554,9 +556,10 @@ void rules()
         system("cls");
     }
 }
+// menu function
 void mainMenu()
 {
-    int menuaction;
+    int menuAction;
     system("color 3");
     cout << endl;
     cout << endl;
@@ -596,9 +599,6 @@ void mainMenu()
     Sleep(2000);
     system("cls");
 
-
-
-
     cout << endl;
     cout << endl;
     cout << endl;
@@ -620,8 +620,8 @@ void mainMenu()
     cout << setw(55) << "4. View the credits." << endl;
     cout << endl;
     cout << setw(55) << "Your choice: ";
-    cin >> menuaction;
-    if (menuaction == 1)
+    cin >> menuAction;
+    if (menuAction == 1)
     {
 
         system("CLS");
@@ -629,9 +629,8 @@ void mainMenu()
         system("CLS");
         game();
     }
-    if (menuaction == 3)
+    if (menuAction == 3)
     {
-
         system("CLS");
         rules();
         mainMenu();

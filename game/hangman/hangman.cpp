@@ -122,6 +122,245 @@ void registration()
     }
 }
 
+// function for credits
+void credits()
+{
+    cout << endl;
+    cout << endl;
+    cout << setw(10) << "C";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "d";
+    Sleep(50);
+    cout << "i";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << ":" << endl;
+    Sleep(50);
+    cout << setw(10) << "1.";
+    Sleep(50);
+    cout << "S";
+    Sleep(50);
+    cout << "c";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << "m";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "i";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << " - ";
+    Sleep(100);
+    cout << "T";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "d";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "A";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "v." << endl;
+
+    Sleep(100);
+    cout << setw(10) << "2.";
+    Sleep(50);
+    cout << "Q";
+    Sleep(50);
+    cout << "A";
+    Sleep(50);
+    cout << " ";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+    cout << "g";
+    Sleep(50);
+    cout << "i";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << " - ";
+    Sleep(100);
+    cout << "T";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "d";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << " M";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "d";
+    Sleep(50);
+    cout << "j";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "v." << endl;
+
+    Sleep(100);
+    cout << setw(10) << "3.";
+    Sleep(50);
+    cout << "B";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "c";
+    Sleep(50);
+    cout << "k";
+    Sleep(50);
+    cout << "-";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+    cout << "d";
+    Sleep(50);
+    cout << " D";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "v";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "l";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "p";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "r";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << " - ";
+    Sleep(100);
+    cout << "A";
+    Sleep(50);
+    cout << "p";
+    Sleep(50);
+    cout << "s";
+    Sleep(50);
+    cout << "t";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "l";
+    Sleep(50);
+    cout << " K";
+    Sleep(50);
+    cout << "u";
+    Sleep(50);
+    cout << "p";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "v";
+    Sleep(50);
+    cout << " a";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+    cout << "d";
+    Sleep(50);
+    cout << " I";
+    Sleep(50);
+    cout << "v";
+    Sleep(50);
+    cout << "a";
+    Sleep(50);
+    cout << "n";
+    Sleep(50);
+    cout << " D";
+    Sleep(50);
+    cout << "o";
+    Sleep(50);
+    cout << "c";
+    Sleep(50);
+    cout << "h";
+    Sleep(50);
+    cout << "e";
+    Sleep(50);
+    cout << "v.";
+
+    Sleep(200);
+
+    int a;
+    cout << setw(200) << "Enter 1 to go back ";
+    cin >> a;
+    if (a == 1)
+    {
+        system("cls");
+    }
+}
+
+
 void pushX(int num)
 {
     for (int i = 0; i < num; i++)
@@ -228,7 +467,6 @@ void rules()
     Sleep(50);
     cout << "n";
     Sleep(50);
-
     cout << "t";
     Sleep(50);
     cout << "s" << endl;
@@ -612,14 +850,14 @@ void mainMenu()
 			                      __/ |                
 			                     |___/                                                                                                                                                                                                                                                       
  )" << endl;
-    cout << setw(52) << "Welcome to hanggirl!" << endl;
+    cout << setw(55) << "Welcome to hanggirl!" << endl;
     cout << " " << endl;
     cout << setw(54) << "1. Access the game." << endl;
     cout << setw(58) << "2. Access the settings." << endl;
     cout << setw(53) << "3. View the rules." << endl;
     cout << setw(55) << "4. View the credits." << endl;
     cout << endl;
-    cout << setw(55) << "Your choice: ";
+    cout << setw(51) << "Your choice: ";
     cin >> menuAction;
     if (menuAction == 1)
     {
@@ -634,6 +872,11 @@ void mainMenu()
         system("CLS");
         rules();
         mainMenu();
+    }
+    if (menuAction == 4)
+    {
+        system("cls");
+        // here you have to add the credits function and the main menu
     }
 }
 int main()

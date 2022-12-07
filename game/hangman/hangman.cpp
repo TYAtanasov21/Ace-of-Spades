@@ -427,7 +427,7 @@ void rules()
 {
     cout << endl;
     cout << endl;
-    cout << setw(10) << "R";
+    cout << setw(40) << "R";
     Sleep(50);
     cout << "u";
     Sleep(50);
@@ -437,9 +437,9 @@ void rules()
     Sleep(50);
     cout << "s";
     Sleep(50);
-    cout << ":";
+    cout << ":" << endl;
     Sleep(50);
-    cout << "1";
+    cout << setw(16) << "1";
     Sleep(50);
     cout << ".";
     Sleep(50);

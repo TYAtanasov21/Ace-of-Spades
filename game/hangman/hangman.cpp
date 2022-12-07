@@ -787,7 +787,7 @@ void rules()
     cout << "t" << endl;
     Sleep(100);
     int a;
-    cout << setw(200) << "Click 1 to go back ";
+    cout << setw(200) << "Enter 1 to go back ";
     cin >> a;
     if (a == 1)
     {

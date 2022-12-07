@@ -877,6 +877,7 @@ void mainMenu()
     {
         system("cls");
         credits();
+        mainMenu();
     }
 }
 int main()

@@ -867,16 +867,16 @@ void mainMenu()
         system("CLS");
         game();
     }
-    if (menuAction == 3)
+    else if (menuAction == 3)
     {
         system("CLS");
         rules();
         mainMenu();
     }
-    if (menuAction == 4)
+    else if (menuAction == 4)
     {
         system("cls");
-        // here you have to add the credits function and the main menu
+        credits();
     }
 }
 int main()

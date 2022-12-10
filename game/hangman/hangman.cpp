@@ -1258,7 +1258,7 @@ void game3()
             system("cls");
             cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------";
             cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "      Famous German car brand       | ";
-            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 9 letters    | ";
+            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 8 letters    | ";
             cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "|" << "The emblem looks like tree pointed star|";
             cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << setw(102) << "-" << "-------------------------------------";
             cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
@@ -1284,7 +1284,7 @@ void game3()
             system("cls");
             cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------";
             cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "      Famous German car brand       | ";
-            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 9 letters    | ";
+            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 8 letters    | ";
             cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "|" << "The emblem looks like tree pointed star|";
             cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << setw(102) << "-" << "-------------------------------------";
             cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
@@ -1310,7 +1310,7 @@ void game3()
             system("cls");
             cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------";
             cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "      Famous German car brand       | ";
-            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 9 letters    | ";
+            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 8 letters    | ";
             cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "|" << "The emblem looks like tree pointed star|";
             cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << setw(102) << "-" << "-------------------------------------";
             cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
@@ -1336,7 +1336,7 @@ void game3()
             system("cls");
             cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------";
             cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "      Famous German car brand       | ";
-            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 9 letters    | ";
+            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 8 letters    | ";
             cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "|" << "The emblem looks like tree pointed star|";
             cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << setw(102) << "-" << "-------------------------------------";
             cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
@@ -1362,7 +1362,7 @@ void game3()
             system("cls");
             cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------";
             cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "      Famous German car brand       | ";
-            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 9 letters    | ";
+            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 8 letters    | ";
             cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "|" << "The emblem looks like tree pointed star|";
             cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << setw(102) << "-" << "-------------------------------------";
             cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
@@ -1391,7 +1391,285 @@ void game3()
 //
 void game4()
 {
+    {
+        system("cls");
+        cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------";
+        cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "People love going there in the winter| ";
+        cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 8 letters    | ";
+        cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "|" << "    It's usually snowwng there    |";
+        cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << setw(102) << "-" << "-------------------------------------";
+        cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
+        cout << setw(18) << "./#.        @@@*     /@@%  .    @@,  @@@,         %  ,*        #@@&     &" << endl;
+        cout << setw(18) << "(@&                @    &        *@@@@@@(           # * *        ||   " << endl;
+        cout << setw(18) << "           @@. (      (           @@@@@&           &(    *       ||  " << endl;
+        cout << setw(18) << "          @,/   &     .           &@@@@@           .                    " << endl;
+        cout << setw(18) << "             .#,   #,            (@@@@@@                                  " << endl;
+        cout << setw(18) << "                     /##          @@@@@(                                " << endl;
+        cout << setw(18) << "                                 @@@@@@@                            " << endl;
+        cout << setw(18) << "                                .@@@@@@@@                                 " << endl;
+        cout << setw(18) << "                                @@@@@@@@@@,                          " << endl;
+        cout << setw(18) << "                               @@@@@@@@@@@                         " << endl;
+        cout << setw(18) << "                              @@@@@@@@@@@@@@                           " << endl;
+        cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
+        cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
+        cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
+        cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "The word:" << setw(10) << "E"
+            << "nter letter: " << endl;
+    }
+    char letter;
+    int counter = 0, counter1 = 0, counter2 = 0, counter3 = 0, counter4 = 0, counter5 = 0, counter6 = 0, counter7 = 0, exitnumber;
+    for (int i = 0; i < 40; i++)
+    {
+        cin >> letter;
+        if (letter != 'M' && letter != 'O' && letter != 'U' && letter != 'N' && letter != 'T' && letter != 'A' && letter != 'I')
+        {
+            counter++;
+        }
+        if (letter == 'M' || letter == 'O' || letter == 'U' || letter == 'N' || letter == 'T' || letter == 'A' || letter == 'I')
+        {
+            if (letter == 'M')
+            {
+                system("cls");
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << setw(100) << letter << " = 1" << endl;
+                Sleep(300);
 
+                counter1 = 1;
+            }
+
+            if (letter == 'O')
+            {
+
+                system("cls");
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << setw(50) << letter << " = 2" << endl;
+                Sleep(300);
+                counter2 = 1;
+            }
+            if (letter == 'U')
+            {
+
+                system("cls");
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << setw(50) << letter << " = 3" << endl;
+                Sleep(300);
+                counter3 = 1;
+            }
+            if (letter == 'N')
+            {
+
+                system("cls");
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << setw(50) << letter << " = 4, 8" << endl;
+                Sleep(300);
+                counter4 = 2;
+            } if (letter == 'T')
+            {
+
+                system("cls");
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << setw(50) << letter << " = 5" << endl;
+                Sleep(300);
+                counter5 = 1;
+            }
+            if (letter == 'A')
+            {
+
+                system("cls");
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << setw(50) << letter << " = 6" << endl;
+                Sleep(300);
+                counter6 = 1;
+            }
+            if (letter == 'I')
+            {
+
+                system("cls");
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << endl;
+                cout << setw(50) << letter << " = 7" << endl;
+                Sleep(300);
+                counter7 = 1;
+            }
+        }
+        if ((counter1 + counter2 + counter3 + counter4 + counter5 + counter6 + counter7) == 8)
+        {
+            system("cls");
+            cout << setw(50) << "G" << "ood job";
+            cout << setw(50) << "C" << "lick 1 to continue";
+            cin >> exitnumber;
+            {
+                if (exitnumber == 1)
+                {
+                    break;
+                }
+            }
+        }
+        if (counter == 1)
+        {
+            system("cls");
+            cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------";
+            cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "People love going there in the winter| ";
+            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 8 letters    | ";
+            cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "|" << "    It's usually snowwng there    |";
+            cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << setw(102) << "-" << "-------------------------------------";
+            cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
+            cout << setw(18) << "./#.        @@@*     /@@%  .    @@,  @@@,         %  ,*        #@@&     &" << endl;
+            cout << setw(18) << "(@&                @    &        *@@@@@@(           # * *        ||   " << endl;
+            cout << setw(18) << "           @@. (      (           @@@@@&           &(    *       ||  " << endl;
+            cout << setw(18) << "          @,/   &     .           &@@@@@           .           #@$$@#         " << endl;
+            cout << setw(18) << "             .#,   #,            (@@@@@@                       #@$$@#           " << endl;
+            cout << setw(18) << "                     /##          @@@@@(                       #@$$@#         " << endl;
+            cout << setw(18) << "                                 @@@@@@@                         %#   " << endl;
+            cout << setw(18) << "                                .@@@@@@@@                                 " << endl;
+            cout << setw(18) << "                                @@@@@@@@@@,                          " << endl;
+            cout << setw(18) << "                               @@@@@@@@@@@                         " << endl;
+            cout << setw(18) << "                              @@@@@@@@@@@@@@                           " << endl;
+            cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
+            cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
+            cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "The word:" << setw(10) << "E"
+                << "nter letter: " << endl;
+        }
+        if (counter == 2)
+        {
+            system("cls");
+            cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------";
+            cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "People love going there in the winter| ";
+            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 8 letters    | ";
+            cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "|" << "    It's usually snowwng there    |";
+            cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << setw(102) << "-" << "-------------------------------------";
+            cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
+            cout << setw(18) << "./#.        @@@*     /@@%  .    @@,  @@@,         %  ,*        #@@&     &" << endl;
+            cout << setw(18) << "(@&                @    &        *@@@@@@(           # * *        ||   " << endl;
+            cout << setw(18) << "           @@. (      (           @@@@@&           &(    *       ||  " << endl;
+            cout << setw(18) << "          @,/   &     .           &@@@@@           .           #@$$@#         " << endl;
+            cout << setw(18) << "             .#,   #,            (@@@@@@                       #@$$@#           " << endl;
+            cout << setw(18) << "                     /##          @@@@@(                       #@$$@#         " << endl;
+            cout << setw(18) << "                                 @@@@@@@                         %#   " << endl;
+            cout << setw(18) << "                                .@@@@@@@@                    $#@$#!&^%@             " << endl;
+            cout << setw(18) << "                                @@@@@@@@@@,                 @#        %$ " << endl;
+            cout << setw(18) << "                               @@@@@@@@@@@                 &#          @$" << endl;
+            cout << setw(18) << "                              @@@@@@@@@@@@@@              $@            !# " << endl;
+            cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
+            cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
+            cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "The word:" << setw(10) << "E"
+                << "nter letter: " << endl;
+        }
+        if (counter == 3)
+        {
+            system("cls");
+            cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------";
+            cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "People love going there in the winter| ";
+            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 8 letters    | ";
+            cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "|" << "    It's usually snowwng there    |";
+            cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << setw(102) << "-" << "-------------------------------------";
+            cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
+            cout << setw(18) << "./#.        @@@*     /@@%  .    @@,  @@@,         %  ,*        #@@&     &" << endl;
+            cout << setw(18) << "(@&                @    &        *@@@@@@(           # * *        ||   " << endl;
+            cout << setw(18) << "           @@. (      (           @@@@@&           &(    *       ||  " << endl;
+            cout << setw(18) << "          @,/   &     .           &@@@@@           .           #@$$@#         " << endl;
+            cout << setw(18) << "             .#,   #,            (@@@@@@                       #@$$@#           " << endl;
+            cout << setw(18) << "                     /##          @@@@@(                       #@$$@#         " << endl;
+            cout << setw(18) << "                                 @@@@@@@                         %#   " << endl;
+            cout << setw(18) << "                                .@@@@@@@@                    $#@$#!&^%@             " << endl;
+            cout << setw(18) << "                                @@@@@@@@@@,                 @#  %@$#  %$ " << endl;
+            cout << setw(18) << "                               @@@@@@@@@@@                 &#   %@$#   @$" << endl;
+            cout << setw(18) << "                              @@@@@@@@@@@@@@              $@    %@$#    !# " << endl;
+            cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
+            cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
+            cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "The word:" << setw(10) << "E"
+                << "nter letter: " << endl;
+        }
+        if (counter == 4)
+        {
+            system("cls");
+            cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------";
+            cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "People love going there in the winter| ";
+            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 8 letters    | ";
+            cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "|" << "    It's usually snowwng there    |";
+            cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << setw(102) << "-" << "-------------------------------------";
+            cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
+            cout << setw(18) << "./#.        @@@*     /@@%  .    @@,  @@@,         %  ,*        #@@&     &" << endl;
+            cout << setw(18) << "(@&                @    &        *@@@@@@(           # * *        ||   " << endl;
+            cout << setw(18) << "           @@. (      (           @@@@@&           &(    *       ||  " << endl;
+            cout << setw(18) << "          @,/   &     .           &@@@@@           .           #@$$@#         " << endl;
+            cout << setw(18) << "             .#,   #,            (@@@@@@                       #@$$@#           " << endl;
+            cout << setw(18) << "                     /##          @@@@@(                       #@$$@#         " << endl;
+            cout << setw(18) << "                                 @@@@@@@                         %#   " << endl;
+            cout << setw(18) << "                                .@@@@@@@@                    $#@$#!&^%@             " << endl;
+            cout << setw(18) << "                                @@@@@@@@@@,                 @#  %@$#  %$ " << endl;
+            cout << setw(18) << "                               @@@@@@@@@@@                 &#   %@$#   @$" << endl;
+            cout << setw(18) << "                              @@@@@@@@@@@@@@              $@    %@$#    !# " << endl;
+            cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                  %" << endl;
+            cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                 !      " << endl;
+            cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,              &$@         " << endl;
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "The word:" << setw(10) << "E"
+                << "nter letter: " << endl;
+        }
+        if (counter == 5)
+        {
+            system("cls");
+            cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------";
+            cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "People love going there in the winter| ";
+            cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(102) << "|" << "    Your word has 8 letters    | ";
+            cout << setw(18) << " . .     @      @  *.       ## * &.   &@@@@@@@@@@@@@  ,%,  # /     ," << setw(102) << "|" << "    It's usually snowwng there    |";
+            cout << setw(18) << "%              @@@@@@@@@@@@(  @,     %@@@@@#,@ &    @.@@@@@@&@   (  (" << setw(102) << "-" << "-------------------------------------";
+            cout << setw(18) << "*    .,     @@@@@@   ,/     @@@.     @@@%      @..   ##   *( @@@ ,   ," << endl;
+            cout << setw(18) << "./#.        @@@*     /@@%  .    @@,  @@@,         %  ,*        #@@&     &" << endl;
+            cout << setw(18) << "(@&                @    &        *@@@@@@(           # * *        ||   " << endl;
+            cout << setw(18) << "           @@. (      (           @@@@@&           &(    *       ||  " << endl;
+            cout << setw(18) << "          @,/   &     .           &@@@@@           .           #@$$@#         " << endl;
+            cout << setw(18) << "             .#,   #,            (@@@@@@                       #@$$@#           " << endl;
+            cout << setw(18) << "                     /##          @@@@@(                       #@$$@#         " << endl;
+            cout << setw(18) << "                                 @@@@@@@                         %#   " << endl;
+            cout << setw(18) << "                                .@@@@@@@@                    $#@$#!&^%@             " << endl;
+            cout << setw(18) << "                                @@@@@@@@@@,                 @#  %@$#  %$ " << endl;
+            cout << setw(18) << "                               @@@@@@@@@@@                 &#   %@$#   @$" << endl;
+            cout << setw(18) << "                              @@@@@@@@@@@@@@              $@    %@$#    !# " << endl;
+            cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                  %  &" << endl;
+            cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                 !  $    " << endl;
+            cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,              &$@  @#$       " << endl;
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "The word:" << setw(10) << "E"
+                << "nter letter: " << endl;
+        }
+    }
 }
 // rules function
 void rules()

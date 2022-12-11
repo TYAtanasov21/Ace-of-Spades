@@ -6,97 +6,78 @@
 #include <iomanip>
 
 using namespace std;
+void gameselect()
+{
+    system("CLS");
+    int numsel;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << R"(
+                                                                               _    _                   __  __             
+                                                                              | |  | |                 |  \/  |            
+                                                                              | |__| | __ _ _ __   __ _| \  / | __ _ _ __  
+                                                                              |  __  |/ _` | '_ \ / _` | |\/| |/ _` | '_ \ 
+                                                                              | |  | | (_| | | | | (_| | |  | | (_| | | | |
+                                                                              |_|  |_|\__,_|_| |_|\__, |_|  |_|\__,_|_| |_|
+                                                                                                   __/ |                   
+                                                                                                  |___/                                                                                                                                                                                                                                                                       
+ )" << endl;
+    cout << setw(90) << "W" << "elcome to levelsect!" << endl;
+    cout << setw(88) << "P" << "lease select your level" << endl;
+    Sleep(3000);
+    cout << endl;
+    cout << setw(94) << "1" << ". Level one" << endl;
+    cout << setw(94) << "1" << ". Level two" << endl;
+    cout << setw(94) << "3" << ". Level three" << endl;
+    cout << setw(94) << "4" << ". Level four" << endl;
+    cout << setw(94) << "5" << ". Level five" << endl;
+    cout << setw(94) << "6" << ". Level six" << endl;
+    cout << setw(94) << "7" << ". Level seven" << endl;
+    cout << setw(94) << "8" << ". Level eight" << endl;
+    cout << endl;
+    cout << setw(92) << "Y" << "our choice: ";
+    cin >> numsel;
+    if (numsel == 1)
+    {
+        game1();
+    }
+    else if (numsel == 2)
+    {
+        game2();
+    }
+    else if (numsel == 2)
+    {
+        game3();
+    }
+    else if (numsel == 2)
+    {
+        game4();
+    }
+    else if (numsel == 2)
+    {
+        game5();
+    }
+    else if (numsel == 2)
+    {
+        game6();
+    }
+    else if (numsel == 2)
+    {
+        game7();
+    }
+    else if (numsel == 2)
+    {
+        game8();
+    }
+
+}
 
 // create registration form
 void registration()
-{
-    string username;
-    string yn;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << setw(90) << "T";
-    Sleep(50);
-    cout << "o";
-    Sleep(50);
-    cout << " ";
-    Sleep(50);
-    cout << "A";
-    Sleep(50);
-    cout << "c";
-    Sleep(50);
-    cout << "c";
-    Sleep(50);
-    cout << "e";
-    Sleep(50);
-    cout << "s";
-    Sleep(50);
-    cout << "s";
-    Sleep(50);
-    cout << " ";
-    Sleep(50);
-    cout << "t";
-    Sleep(50);
-    cout << "h";
-    Sleep(50);
-    cout << "e";
-    Sleep(50);
-    cout << " ";
-    Sleep(50);
-    cout << "g";
-    Sleep(50);
-    cout << "a";
-    Sleep(50);
-    cout << "m";
-    Sleep(50);
-    cout << "e";
-    Sleep(50);
-    cout << " ";
-    Sleep(50);
-
-    cout << "r";
-    Sleep(50);
-    cout << "e";
-    Sleep(50);
-    cout << "g";
-    Sleep(50);
-
-    cout << "i";
-    Sleep(50);
-    cout << "s";
-    Sleep(50);
-    cout << "t";
-    Sleep(50);
-    cout << "e";
-    Sleep(50);
-    cout << "r";
-
-    Sleep(2000);
-    system("cls");
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << endl;
-    cout << setw(100) << "To begin with please enter your username : ";
-    cin >> username;
-    cout << endl;
-    cout << endl;
-    cout << setw(100) << "Are you sure you want to be called " << username << " Y / N ?" << endl;
-    cin >> yn;
-    if (yn == "Y" || "y")
     {
-        system("cls");
+        string username;
+        string yn;
         cout << endl;
         cout << endl;
         cout << endl;
@@ -106,23 +87,101 @@ void registration()
         cout << endl;
         cout << endl;
         cout << endl;
-        cout << setw(90) << "Great " << username << " we welcome you to Hanggirl!";
-        Sleep(1000);
-        system("cls");
-        cout << "Loading. . .";
+        cout << setw(90) << "T";
+        Sleep(50);
+        cout << "o";
+        Sleep(50);
+        cout << " ";
+        Sleep(50);
+        cout << "A";
+        Sleep(50);
+        cout << "c";
+        Sleep(50);
+        cout << "c";
+        Sleep(50);
+        cout << "e";
+        Sleep(50);
+        cout << "s";
+        Sleep(50);
+        cout << "s";
+        Sleep(50);
+        cout << " ";
+        Sleep(50);
+        cout << "t";
+        Sleep(50);
+        cout << "h";
+        Sleep(50);
+        cout << "e";
+        Sleep(50);
+        cout << " ";
+        Sleep(50);
+        cout << "g";
+        Sleep(50);
+        cout << "a";
+        Sleep(50);
+        cout << "m";
+        Sleep(50);
+        cout << "e";
+        Sleep(50);
+        cout << " ";
+        Sleep(50);
+
+        cout << "r";
+        Sleep(50);
+        cout << "e";
+        Sleep(50);
+        cout << "g";
+        Sleep(50);
+
+        cout << "i";
+        Sleep(50);
+        cout << "s";
+        Sleep(50);
+        cout << "t";
+        Sleep(50);
+        cout << "e";
+        Sleep(50);
+        cout << "r";
+
         Sleep(2000);
-        //  call the func for the game
-    }
-    else if (yn == "N" || "n")
-    {
-        registration();
-    }
-    else
-    {
-        cout << "Looks like the parameters you have entered aren't valid, please try again!";
-    }
+        system("cls");
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << setw(90) <<"T" << "o begin with please enter your username : ";
+        cin >> username;
+        system("cls");
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << setw(90) << "G"<<"reat " << username << ", we welcome you to Hanggirl!";
+        Sleep(3000);
+        system("cls");
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout << endl;
+        cout<< setw(100) << "L"<<"oading. . .";
+        Sleep(3000);
+        gameselect();
 }
-
 // function for credits
 void credits()
 {
@@ -359,13 +418,6 @@ void credits()
     {
         system("cls");
     }
-}
-
-
-void pushX(int num)
-{
-    for (int i = 0; i < num; i++)
-        cout << " ";
 }
 
 // the real game
@@ -2115,11 +2167,7 @@ void mainMenu()
         system("CLS");
         registration();
         system("CLS");
-        game();
-        game1();
-        game2();
-        game3();
-        game4();
+        gameselect();
     }
     else if (menuAction == 3)
     {

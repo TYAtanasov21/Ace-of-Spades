@@ -40,35 +40,35 @@ void gameselect()
     cin >> numsel;
     if (numsel == 1)
     {
-        game1();
+        cout << "game5()";
     }
     else if (numsel == 2)
     {
-        game2();
+        cout << "game5()";
     }
     else if (numsel == 2)
     {
-        game3();
+        cout << "game5()";
     }
     else if (numsel == 2)
     {
-        game4();
+        cout << "game5()";
     }
     else if (numsel == 2)
     {
-        game5();
+        cout << "game5()";
     }
     else if (numsel == 2)
     {
-        game6();
+        cout << "game5()";
     }
     else if (numsel == 2)
     {
-        game7();
+        cout << "game5()";
     }
     else if (numsel == 2)
     {
-        game8();
+        cout << "game5()";
     }
 
 }
@@ -1729,18 +1729,19 @@ void rules()
 {
     cout << endl;
     cout << endl;
-    cout << setw(100) << "R";
-    Sleep(50);
-    cout << "u";
-    Sleep(50);
-    cout << "l";
-    Sleep(50);
-    cout << "e";
-    Sleep(50);
-    cout << "s";
-    Sleep(50);
-    cout << ":" << endl;
-    Sleep(50);
+    cout << R"(    
+                                                                                           ____        _                                                                           
+                                                                                          |  __ \     | |          
+                                                                                          | |__) |   _| | ___  ___ 
+                                                                                          |  _  / | | | |/ _ \/ __|
+                                                                                          | | \ \ |_| | |  __/\__ \
+                                                                                          |_|  \_\__,_|_|\___||___/
+                          
+                          )" << endl;
+
+    cout << endl;
+    cout << endl;
+    cout << endl;
     cout << setw(95) << " 1";
     Sleep(50);
     cout << ".";
@@ -2064,6 +2065,8 @@ void rules()
     Sleep(50);
     cout << "s";
     Sleep(50);
+    cout << "e";
+    Sleep(50);
     cout << " ";
     Sleep(50);
     cout << "a";
@@ -2089,11 +2092,18 @@ void rules()
     cout << "t" << endl;
     Sleep(100);
     int a;
-    cout << setw(113) << "Enter 1 to go back ";
+    cout << endl;
+    cout << endl;
+    cout << setw(113) << "Enter 1 to go back: ";
     cin >> a;
     if (a == 1)
     {
         system("cls");
+    }
+    else
+    {
+        system("cls");
+        rules();
     }
 }
 // menu function
@@ -2110,7 +2120,7 @@ void mainMenu()
     cout << endl;
     cout << endl;
     cout << endl;
-    cout << setw(100) << "A";
+    cout << setw(50) << "A";
     Sleep(50);
     cout << "c";
     Sleep(50);
@@ -2137,27 +2147,48 @@ void mainMenu()
     cout << "s" << endl;
     Sleep(50);
     Sleep(2000);
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+
+    cout << setw(45) << "For ";
+    Sleep(50);
+    cout << "full ";
+    Sleep(50);
+
+    cout << "experience ";
+    Sleep(50);
+    cout << "press ";
+    Sleep(50);
+    cout << "F11";
+    Sleep(50);
+    cout << "!";
+    Sleep(50);
+    Sleep(3000);
     system("cls");
 
     cout << endl;
     cout << endl;
     cout << endl;
-    cout << R"(
-                                                                               _    _                   __  __             
-                                                                              | |  | |                 |  \/  |            
-                                                                              | |__| | __ _ _ __   __ _| \  / | __ _ _ __  
-                                                                              |  __  |/ _` | '_ \ / _` | |\/| |/ _` | '_ \ 
-                                                                              | |  | | (_| | | | | (_| | |  | | (_| | | | |
-                                                                              |_|  |_|\__,_|_| |_|\__, |_|  |_|\__,_|_| |_|
-                                                                                                   __/ |                   
-                                                                                                  |___/                                                                                                                                                                                                                                                                       
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << R"(                                                                                             __    _____                 _           
+                                                                      /\                    / _|  / ____|               | |          
+                                                                     /  \   ___ ___    ___ | |_  | (___  _ __   __ _  __| | ___  ___ 
+                                                                    / /\ \ / __/ _ \  / _ \|  _|  \___ \| '_ \ / _` |/ _` |/ _ \/ __|
+                                                                   / ____ \ (_|  __/ | (_) | |    ____) | |_) | (_| | (_| |  __/\__ \
+                                                                  /_/    \_\___\___|  \___/|_|   |_____/| .__/ \__,_|\__,_|\___||___/
+                                                                                                        | |                          
+                                                                                                        |_|                          
  )" << endl;
-    cout << setw(90) << "W" << "elcome to hanggirl!" << endl;
+    cout << endl;;
+    cout << setw(90) << "W" << "elcome to hangman!" << endl;
     cout << " " << endl;
     cout << setw(90) << "1" << ". Access the game." << endl;
-    cout << setw(90) << "2" << ". Access the settings." << endl;
-    cout << setw(90) << "3" << ". View the rules." << endl;
-    cout << setw(90) << "4" << ". View the credits." << endl;
+    cout << setw(90) << "2" << ". View the rules." << endl;
+    cout << setw(90) << "3" << ". View the credits." << endl;
     cout << endl;
     cout << setw(90) << "Y" << "our choice: ";
     cin >> menuAction;
@@ -2169,17 +2200,15 @@ void mainMenu()
         system("CLS");
         gameselect();
     }
-    else if (menuAction == 3)
+    else if (menuAction == 2)
     {
         system("CLS");
         rules();
-        mainMenu();
     }
-    else if (menuAction == 4)
+    else if (menuAction == 3)
     {
         system("cls");
         credits();
-        mainMenu();
     }
 }
 int main()

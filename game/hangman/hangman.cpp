@@ -198,14 +198,17 @@ void credits()
     cout << endl;
     cout << endl;
     cout << R"(
-                                                                              _____              _ _ _       
-                                                                             / ____|            | (_) |      
-                                                                            | |     _ __ ___  __| |_| |_ ___ 
-                                                                            | |    | '__/ _ \/ _` | | __/ __|
-                                                                            | |____| | |  __/ (_| | | |_\__ \
-                                                                             \_____|_|  \___|\__,_|_|\__|___/
+                                                                                        _____              _ _ _       
+                                                                                       / ____|            | (_) |      
+                                                                                      | |     _ __ ___  __| |_| |_ ___ 
+                                                                                      | |    | '__/ _ \/ _` | | __/ __|
+                                                                                      | |____| | |  __/ (_| | | |_\__ \
+                                                                                       \_____|_|  \___|\__,_|_|\__|___/
                                   
                                   )" << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
     cout << setw(90) << "1.";
     Sleep(1000);
     cout << "Scrum";
@@ -227,16 +230,18 @@ void credits()
     Sleep(50);
     cout << "Dochev" << endl;
     Sleep(50);
+    cout << endl;
     cout << setw(90) << "3.";
-    Sleep(1000);
+    Sleep(90);
     cout << "Back-";
     Sleep(50);
-    cout << "End";
+    cout << "End ";
     Sleep(50);
     cout << "Apostol ";
     Sleep(50);
     cout << "Kupenov" << endl;
     Sleep(50);
+    cout << endl;
     cout << setw(90) << "4.";
     Sleep(1000);
     cout << "QA";
@@ -247,9 +252,11 @@ void credits()
     Sleep(50);
     cout << "Madjarov" << endl;
     Sleep(50);
-
+    cout << endl;
+    cout << endl;
+    cout << endl;
     int a;
-    cout << setw(100) << "Enter 1 to go back ";
+    cout << setw(115) << "Enter 1 to go back: ";
     cin >> a;
     if (a == 1)
     {

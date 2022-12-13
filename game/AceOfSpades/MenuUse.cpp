@@ -3,8 +3,9 @@
 #include <windows.h>
 #include <sys/types.h>
 #include <iomanip>
-#include <../../SelectLevel.h>
-#include <../../MenuUse.h>
+
+#include "SelectLevel.h"
+#include "MenuUse.h"
 
 using namespace std;
 

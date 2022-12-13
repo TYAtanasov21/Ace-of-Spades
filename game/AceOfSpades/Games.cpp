@@ -4,12 +4,13 @@
 #include <sys/types.h>
 #include <iomanip>
 
-#include <../../Games.h>
+#include "Games.h"
 using namespace std;
 
 
 void game()
 {
+    system("cls");
     cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(112) << "-" << "-------------------------------------";
     cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "You can see your word in this screen| ";
     cout << setw(18) << "& @     ,#*      %( .  ,      @@ /   *@    * .,    ,,%     /&     %&,/&." << setw(101) << "|" << "       Your word has 4 letters      | ";

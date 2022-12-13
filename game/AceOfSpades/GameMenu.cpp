@@ -4,9 +4,9 @@
 #include <sys/types.h>
 #include <iomanip>
 
-#include <../../GameMenu.h>
-#include <../../MenuUse.h>
-#include <../../SelectLevel.h>
+#include "GameMenu.h"
+#include "MenuUse.h"
+#include "SelectLevel.h"
 using namespace std;
 
 void mainMenu()

@@ -3,7 +3,10 @@
 #include <windows.h>
 #include <sys/types.h>
 #include <iomanip>
-#include<../../SelectLevel.h>
+
+
+#include "SelectLevel.h"
+#include "Games.h"
 
 using namespace std;
 
@@ -51,7 +54,7 @@ void gameselect()
     cin >> numsel;
     if (numsel == 1)
     {
-        cout << "game5()";
+        game();
     }
     else if (numsel == 2)
     {

@@ -1,5 +1,5 @@
 #include <iostream>
-#include <../../GameMenu.h>
+#include "GameMenu.h"
 
 using namespace std;
 

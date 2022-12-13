@@ -371,7 +371,7 @@ void game1()
                 counter7 = 1;
             }
         }
-        if ((counter1 + counter2 + counter3 + counter4 + counter5 + counter6 + counter7) == 9)
+        if ((counter + counter1 + counter2 + counter3 + counter4 + counter5 + counter6 + counter7) == 9)
         {
             system("cls");
             cout << setw(100) << "G" << "ood job";
@@ -407,8 +407,7 @@ void game1()
             cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
             cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
-            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "The word:" << setw(10) << "E"
-                << "nter letter: " << endl;
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E" << "nter letter: " << endl;
         }
         if (counter == 2)
         {
@@ -433,8 +432,7 @@ void game1()
             cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
             cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
-            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
-                << "nter letter: ";
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E" << "nter letter: ";
         }
         if (counter == 3)
         {
@@ -459,8 +457,7 @@ void game1()
             cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
             cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
-            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
-                << "nter letter: ";
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E" << "nter letter: ";
         }
         if (counter == 4)
         {
@@ -485,8 +482,7 @@ void game1()
             cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                  %" << endl;
             cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                 !      " << endl;
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,              &$@         " << endl;
-            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
-                << "nter letter: ";
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E" << "nter letter: ";
         }
         if (counter == 5)
         {
@@ -511,8 +507,7 @@ void game1()
             cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                  %  &" << endl;
             cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                 !  $    " << endl;
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,              &$@  @#$       " << endl;
-            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
-                << "nter letter: ";
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E" << "nter letter: ";
         }
     }
 }

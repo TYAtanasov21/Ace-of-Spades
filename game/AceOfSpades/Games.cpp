@@ -31,8 +31,7 @@ void game()
     cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
     cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
     cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
-    cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
-        << "nter letter: ";
+    cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E" << "nter letter: ";
     char letter;
     int counter = 0, counter1 = 0, counter2 = 0, counter3 = 0, exitnumber, exitnumber1;
     for (int i = 0; i < 40; i++)
@@ -54,7 +53,7 @@ void game()
                 cout << endl;
                 cout << endl;
                 cout << setw(100) << letter << " =1 ," << endl;
-                Sleep(300);
+                Sleep(500);
 
                 counter1 = 1;
             }
@@ -69,7 +68,7 @@ void game()
                 cout << endl;
                 cout << endl;
                 cout << setw(100) << letter << " =3,4 ," << endl;
-                Sleep(300);
+                Sleep(500);
                 counter2 = 2;
             }
             if (letter == 'R')
@@ -83,7 +82,7 @@ void game()
                 cout << endl;
                 cout << endl;
                 cout << setw(100) << letter << " =2 ," << endl;
-                Sleep(300);
+                Sleep(500);
                 counter3 = 1;
             }
         }
@@ -123,8 +122,7 @@ void game()
             cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
             cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
-            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
-                << "nter letter: ";
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E" << "nter letter: ";
         }
         if (counter == 2)
         {
@@ -149,8 +147,7 @@ void game()
             cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
             cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
-            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
-                << "nter letter: ";
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E" << "nter letter: ";
         }
         if (counter == 3)
         {
@@ -175,8 +172,7 @@ void game()
             cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                 " << endl;
             cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                       " << endl;
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
-            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
-                << "nter letter: ";
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E" << "nter letter: ";
         }
         if (counter == 4)
         {
@@ -201,8 +197,7 @@ void game()
             cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                  &" << endl;
             cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                 $      " << endl;
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,              $#$         " << endl;
-            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
-                << "nter letter: ";
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E" << "nter letter: ";
         }
         if (counter == 5)
         {
@@ -227,8 +222,7 @@ void game()
             cout << setw(18) << "                            &@@@@@@@@@@@@@@@@#                  &  $" << endl;
             cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                 $  %    " << endl;
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,              $#$  #@*       " << endl;
-            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
-                << "nter letter: ";
+            cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E" << "nter letter: ";
             Sleep(200);
             system("cls");
             cout << setw(100) << "C" << "lick 1 for new word";

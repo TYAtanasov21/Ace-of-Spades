@@ -76,7 +76,8 @@ void mainMenu()
     cout << endl;
     cout << endl;
     cout << endl;
-    cout << R"(                                                                                             __    _____                 _           
+    cout << R"(
+                                                                                             __    _____                 _           
                                                                       /\                    / _|  / ____|               | |          
                                                                      /  \   ___ ___    ___ | |_  | (___  _ __   __ _  __| | ___  ___ 
                                                                     / /\ \ / __/ _ \  / _ \|  _|  \___ \| '_ \ / _` |/ _` |/ _ \/ __|
@@ -84,8 +85,9 @@ void mainMenu()
                                                                   /_/    \_\___\___|  \___/|_|   |_____/| .__/ \__,_|\__,_|\___||___/
                                                                                                         | |                          
                                                                                                         |_|                          
+
  )" << endl;
-    cout << endl;;
+    cout << endl;
     cout << setw(90) << "W" << "elcome to hangman!" << endl;
     cout << " " << endl;
     cout << setw(90) << "1" << ". Access the game." << endl;

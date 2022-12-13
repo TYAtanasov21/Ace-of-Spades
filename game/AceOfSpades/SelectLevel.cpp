@@ -28,8 +28,8 @@ void gameselect()
                                                                                                    __/ |                   
                                                                                                   |___/                                                                                                                                                                                                                                                                       
  )" << endl;
-    cout << setw(90) << "W" << "elcome to levelsect!" << endl;
-    cout << setw(88) << "P" << "lease select your level" << endl;
+    cout << setw(90) << "W" << "elcome to level select!" << endl;
+    cout << setw(90) << "P" << "lease select your level." << endl;
     Sleep(3000);
     cout << endl;
     cout << setw(94) << "1" << ". Level one" << endl;
@@ -37,18 +37,6 @@ void gameselect()
     cout << setw(94) << "3" << ". Level three" << endl;
     cout << setw(94) << "4" << ". Level four" << endl;
     cout << setw(94) << "5" << ". Level five" << endl;
-    cout << setw(94) << "6" << ". Level six" << endl;
-    cout << setw(94) << "7" << ". Level seven" << endl;
-    cout << setw(94) << "8" << ". Level eight" << endl;
-    cout << setw(94) << "9" << ". Level nine" << endl;
-    cout << setw(94) << "10" << ". Level ten" << endl;
-    cout << setw(94) << "11" << ". Level eleven" << endl;
-    cout << setw(94) << "12" << ". Level twelve" << endl;
-    cout << setw(94) << "13" << ". Level thirteen" << endl;
-    cout << setw(94) << "14" << ". Level fourteen" << endl;
-    cout << setw(94) << "15" << ". Level fifteen" << endl;
-
-    cout << setw(94) << "8" << ". Level eight" << endl;
     cout << endl;
     cout << setw(92) << "Y" << "our choice: ";
     cin >> numsel;
@@ -58,31 +46,23 @@ void gameselect()
     }
     else if (numsel == 2)
     {
-        cout << "game5()";
+        game1();
     }
-    else if (numsel == 2)
+    else if (numsel == 3)
     {
-        cout << "game5()";
+        game2();
     }
-    else if (numsel == 2)
+    else if (numsel == 4)
     {
-        cout << "game5()";
+        game3();
     }
-    else if (numsel == 2)
+    else if (numsel == 5)
     {
-        cout << "game5()";
+        game4();
     }
-    else if (numsel == 2)
-    {
-        cout << "game5()";
-    }
-    else if (numsel == 2)
-    {
-        cout << "game5()";
-    }
-    else if (numsel == 2)
-    {
-        cout << "game5()";
+    else {
+        system("cls");
+        gameselect();
     }
 
 }

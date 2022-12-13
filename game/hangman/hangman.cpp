@@ -6,6 +6,7 @@
 #include <iomanip>
 
 using namespace std;
+string username;
 void gameselect()
 {
     system("CLS");
@@ -28,12 +29,21 @@ void gameselect()
     Sleep(3000);
     cout << endl;
     cout << setw(94) << "1" << ". Level one" << endl;
-    cout << setw(94) << "1" << ". Level two" << endl;
+    cout << setw(94) << "2" << ". Level two" << endl;
     cout << setw(94) << "3" << ". Level three" << endl;
     cout << setw(94) << "4" << ". Level four" << endl;
     cout << setw(94) << "5" << ". Level five" << endl;
     cout << setw(94) << "6" << ". Level six" << endl;
     cout << setw(94) << "7" << ". Level seven" << endl;
+    cout << setw(94) << "8" << ". Level eight" << endl;
+    cout << setw(94) << "9" << ". Level nine" << endl;
+    cout << setw(94) << "10" << ". Level ten" << endl;
+    cout << setw(94) << "11" << ". Level eleven" << endl;
+    cout << setw(94) << "12" << ". Level twelve" << endl;
+    cout << setw(94) << "13" << ". Level thirteen" << endl;
+    cout << setw(94) << "14" << ". Level fourteen" << endl;
+    cout << setw(94) << "15" << ". Level fifteen" << endl;
+
     cout << setw(94) << "8" << ". Level eight" << endl;
     cout << endl;
     cout << setw(92) << "Y" << "our choice: ";
@@ -76,7 +86,7 @@ void gameselect()
 // create registration form
 void registration()
     {
-        string username;
+        
         string yn;
         cout << endl;
         cout << endl;
@@ -166,7 +176,7 @@ void registration()
         cout << endl;
         cout << endl;
         cout << endl;
-        cout << setw(90) << "G"<<"reat " << username << ", we welcome you to Hanggirl!";
+        cout << setw(90) << "G"<<"reat " << username << ", we welcome you to Hangman!";
         Sleep(3000);
         system("cls");
         cout << endl;

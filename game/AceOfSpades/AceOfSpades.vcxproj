@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b085f468-66c3-4670-9d02-5e0fdb78ce04}</ProjectGuid>
-    <RootNamespace>hangman</RootNamespace>
+    <ProjectGuid>{2e78633c-d279-4d9f-bb57-a433394a11e9}</ProjectGuid>
+    <RootNamespace>AceOfSpades</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="hangman.cpp" />
+    <ClCompile Include="AceOfSpades.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
+    <ClCompile Include="Games.cpp" />
+    <ClCompile Include="MenuUse.cpp" />
+    <ClCompile Include="SelectLevel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameMenu.h" />
+    <ClInclude Include="Games.h" />
+    <ClInclude Include="MenuUse.h" />
+    <ClInclude Include="SelectLevel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

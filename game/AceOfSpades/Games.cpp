@@ -4,6 +4,7 @@
 #include <sys/types.h>
 #include <iomanip>
 
+#include "SelectLevel.h"
 #include "Games.h"
 using namespace std;
 
@@ -45,10 +46,6 @@ void game()
         {
             if (letter == 'T')
             {
-                system("cls");
-                cout << endl;
-                cout << endl;
-                cout << endl;
                 cout << endl;
                 cout << endl;
                 cout << endl;
@@ -59,11 +56,6 @@ void game()
             }
             if (letter == 'E')
             {
-
-                system("cls");
-                cout << endl;
-                cout << endl;
-                cout << endl;
                 cout << endl;
                 cout << endl;
                 cout << endl;
@@ -73,11 +65,6 @@ void game()
             }
             if (letter == 'R')
             {
-
-                system("cls");
-                cout << endl;
-                cout << endl;
-                cout << endl;
                 cout << endl;
                 cout << endl;
                 cout << endl;
@@ -90,13 +77,23 @@ void game()
         {
             system("cls");
             cout << setw(100) << "G" << "ood job";
-            cout << setw(100) << "C" << "lick 1 to continue";
+            cout << setw(100) << "C" << "lick 1 to exit." << endl;
+            cout << setw(100) << "C" << "lick 2 to try another level." << endl;
+            cout << setw(100) << "E" << "nter your input:";
             cin >> exitnumber;
+            if (exitnumber == 2)
             {
-                if (exitnumber == 1)
-                {
-                    break;
-                }
+                system("cls");
+                gameselect();
+            }
+            else if (exitnumber == 1)
+            {
+                break;
+            }
+            else
+            {
+                cout << "Incorrect input!";
+                break;
             }
         }
         if (counter == 1)
@@ -223,13 +220,14 @@ void game()
             cout << setw(18) << "                           &@@@@@@@@@@@@@@@@@@(                 $  %    " << endl;
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,              $#$  #@*       " << endl;
             cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E" << "nter letter: ";
-            Sleep(200);
+            Sleep(400);
             system("cls");
-            cout << setw(100) << "C" << "lick 1 for new word";
+            cout << setw(100) << "C" << "lick 1 for a new word";
             cin >> exitnumber1;
             if (exitnumber1 == 1)
             {
-                break;
+                system("cls");
+                gameselect();
             }
         }
     }
@@ -262,7 +260,7 @@ void game1()
             << "nter letter: ";
     }
     char letter;
-    int counter = 0, counter1 = 0, counter2 = 0, counter3 = 0, counter4 = 0, counter5 = 0, counter6 = 0, counter7 = 0, exitnumber;
+    int counter = 0, counter1 = 0, counter2 = 0, counter3 = 0, counter4 = 0, counter5 = 0, counter6 = 0, counter7 = 0, exitnumber, exitnumber1;
     for (int i = 0; i < 40; i++)
     {
         cin >> letter;
@@ -374,14 +372,24 @@ void game1()
         if ((counter1 + counter2 + counter3 + counter4 + counter5 + counter6 + counter7) == 9)
         {
             system("cls");
-            cout << setw(100) << "G" << "ood job";
-            cout << setw(100) << "C" << "lick 1 to continue";
+            cout << setw(100) << "G" << "ood job" << endl;
+            cout << setw(100) << "C" << "lick 1 to exit." << endl;
+            cout << setw(100) << "C" << "lick 2 to try another level." << endl;
+            cout << setw(100) << "E" << "nter your input:";
             cin >> exitnumber;
+            if (exitnumber == 2)
             {
-                if (exitnumber == 1)
-                {
-                    break;
-                }
+                system("cls");
+                gameselect();
+            }
+            else if (exitnumber == 1)
+            {
+                break;
+            }
+            else
+            {
+                cout << "Incorrect input!";
+                break;
             }
         }
         if (counter == 1)
@@ -513,6 +521,15 @@ void game1()
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,              &$@  @#$       " << endl;
             cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
                 << "nter letter: ";
+            Sleep(400);
+            system("cls");
+            cout << setw(100) << "C" << "lick 1 for a new word";
+            cin >> exitnumber1;
+            if (exitnumber1 == 1)
+            {
+                system("cls");
+                gameselect();
+            }
         }
     }
 }
@@ -598,14 +615,24 @@ void game2()
         if ((counter1 + counter2 + counter3) == 4)
         {
             system("cls");
-            cout << setw(100) << "G" << "ood job";
-            cout << setw(100) << "C" << "lick 1 to continue";
+            cout << setw(100) << "G" << "ood job" << endl;
+            cout << setw(100) << "C" << "lick 1 to exit." << endl;
+            cout << setw(100) << "C" << "lick 2 to try another level." << endl;
+            cout << setw(100) << "E" << "nter your input:";
             cin >> exitnumber;
+            if (exitnumber == 2)
             {
-                if (exitnumber == 1)
-                {
-                    break;
-                }
+                system("cls");
+                gameselect();
+            }
+            else if (exitnumber == 1)
+            {
+                break;
+            }
+            else
+            {
+                cout << "Incorrect input!";
+                break;
             }
         }
         if (counter == 1)
@@ -737,7 +764,7 @@ void game2()
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,              $#$  #@*       " << endl;
             cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
                 << "nter letter: ";
-            Sleep(200);
+            Sleep(400);
             system("cls");
             cout << setw(100) << "C" << "lick 1 for new word";
             cin >> exitnumber1;
@@ -780,7 +807,7 @@ void game3()
             << "nter letter: ";
     }
     char letter;
-    int counter = 0, counter1 = 0, counter2 = 0, counter3 = 0, counter4 = 0, counter5 = 0, counter6 = 0, counter7 = 0, exitnumber;
+    int counter = 0, counter1 = 0, counter2 = 0, counter3 = 0, counter4 = 0, counter5 = 0, counter6 = 0, counter7 = 0, exitnumber, exitnumber1;
     for (int i = 0; i < 40; i++)
     {
         cin >> letter;
@@ -878,14 +905,24 @@ void game3()
         if ((counter1 + counter2 + counter3 + counter4 + counter5 + counter6) == 8)
         {
             system("cls");
-            cout << setw(100) << "G" << "ood job";
-            cout << setw(100) << "C" << "lick 1 to continue";
+            cout << setw(100) << "G" << "ood job" << endl;
+            cout << setw(100) << "C" << "lick 1 to exit." << endl;
+            cout << setw(100) << "C" << "lick 2 to try another level." << endl;
+            cout << setw(100) << "E" << "nter your input:";
             cin >> exitnumber;
+            if (exitnumber == 2)
             {
-                if (exitnumber == 1)
-                {
-                    break;
-                }
+                system("cls");
+                gameselect();
+            }
+            else if (exitnumber == 1)
+            {
+                break;
+            }
+            else
+            {
+                cout << "Incorrect input!";
+                break;
             }
         }
         if (counter == 1)
@@ -1017,6 +1054,15 @@ void game3()
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,              &$@  @#$       " << endl;
             cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
                 << "nter letter: ";
+            Sleep(400);
+            system("cls");
+            cout << setw(100) << "C" << "lick 1 for a new word";
+            cin >> exitnumber1;
+            if (exitnumber1 == 1)
+            {
+                system("cls");
+                gameselect();
+            }
         }
     }
 }
@@ -1026,7 +1072,6 @@ void game3()
 //
 void game4()
 {
-    {
         system("cls");
         cout << setw(18) << "&  /    ,      ,#, # *  *.   @   .     @      ((@.//         ." << setw(111) << "-" << "-------------------------------------";
         cout << setw(18) << " % **     ,**@              %@@@@   @@    ( .#    ,    ** (.     &" << setw(108) << "|" << "People love going there in the winter| ";
@@ -1050,9 +1095,8 @@ void game4()
         cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,                         " << endl;
         cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
             << "nter letter: ";
-    }
     char letter;
-    int counter = 0, counter1 = 0, counter2 = 0, counter3 = 0, counter4 = 0, counter5 = 0, counter6 = 0, counter7 = 0, exitnumber;
+    int counter = 0, counter1 = 0, counter2 = 0, counter3 = 0, counter4 = 0, counter5 = 0, counter6 = 0, counter7 = 0, exitnumber, exitnumber1;
     for (int i = 0; i < 40; i++)
     {
         cin >> letter;
@@ -1060,8 +1104,6 @@ void game4()
         {
             counter++;
         }
-        if (letter == 'M' || letter == 'O' || letter == 'U' || letter == 'N' || letter == 'T' || letter == 'A' || letter == 'I')
-        {
             if (letter == 'M')
             {
                 system("cls");
@@ -1160,18 +1202,27 @@ void game4()
                 Sleep(300);
                 counter7 = 1;
             }
-        }
         if ((counter1 + counter2 + counter3 + counter4 + counter5 + counter6 + counter7) == 8)
         {
             system("cls");
-            cout << setw(100) << "G" << "ood job";
-            cout << setw(100) << "C" << "lick 1 to continue";
+            cout << setw(100) << "G" << "ood job" << endl;
+            cout << setw(100) << "C" << "lick 1 to exit." << endl;
+            cout << setw(100) << "C" << "lick 2 to try another level." << endl;
+            cout << setw(100) << "E" << "nter your input:";
             cin >> exitnumber;
+            if (exitnumber == 2)
             {
-                if (exitnumber == 1)
-                {
-                    break;
-                }
+                system("cls");
+                gameselect();
+            }
+            else if (exitnumber == 1)
+            {
+                break;
+            }
+            else
+            {
+                cout << "Incorrect input!";
+                break;
             }
         }
         if (counter == 1)
@@ -1303,6 +1354,15 @@ void game4()
             cout << setw(18) << "                         *@%%@@@@@@@@@@@@@@@@@@,              &$@  @#$       " << endl;
             cout << setw(18) << "                        @*@%%@@@@@@@@@@@@@@@@@@,&                         " << setw(52) << "E"
                 << "nter letter: ";
+            Sleep(400);
+            system("cls");
+            cout << setw(100) << "C" << "lick 1 for a new word";
+            cin >> exitnumber1;
+            if (exitnumber1 == 1)
+            {
+                system("cls");
+                gameselect();
+            }
         }
     }
 }

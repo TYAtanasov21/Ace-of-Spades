@@ -114,4 +114,9 @@ void mainMenu()
         system("cls");
         credits();
     }
+    else
+    {
+        system("cls");
+        mainMenu();
+    }
 }

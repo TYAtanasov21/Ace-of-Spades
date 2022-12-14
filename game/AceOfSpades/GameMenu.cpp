@@ -7,8 +7,10 @@
 #include "GameMenu.h"
 #include "MenuUse.h"
 #include "SelectLevel.h"
+
 using namespace std;
 
+//Function for the begining part of the game
 void mainMenu()
 {
     int menuAction;

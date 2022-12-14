@@ -6,9 +6,10 @@
 
 #include "SelectLevel.h"
 #include "Games.h"
+
 using namespace std;
 
-
+//function for the first level
 void game()
 {
     system("cls");
@@ -300,6 +301,8 @@ void game()
         }
     }
 }
+
+//function for the second game
 void game1()
 {
     {
@@ -633,6 +636,8 @@ void game1()
         }
     }
 }
+
+//function for the third level
 void game2()
 {
     system("cls");
@@ -918,6 +923,8 @@ void game2()
         }
     }
 }
+
+//function for the fourth level
 void game3()
 {
     {
@@ -1240,6 +1247,8 @@ void game3()
         }
     }
 }
+
+//function for the fifth level
 void game4()
 {
         system("cls");

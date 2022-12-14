@@ -10,7 +10,7 @@
 
 using namespace std;
 
-
+//function for the registration part of the game
 void registration()
 {
     string username;
@@ -119,6 +119,7 @@ void registration()
     gameselect();
 }
 
+//function for the credits part
 void credits()
 {
     cout << endl;
@@ -196,9 +197,7 @@ void credits()
     }
 }
 
-
-
-
+//function for the rules part
 void rules()
 {
     cout << endl;

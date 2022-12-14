@@ -48,7 +48,7 @@ void mainMenu()
     Sleep(50);
     cout << "s" << endl;
     Sleep(50);
-    Sleep(2000);
+    Sleep(1000);
     cout << endl;
     cout << endl;
     cout << endl;
@@ -67,7 +67,8 @@ void mainMenu()
     Sleep(50);
     cout << "!";
     Sleep(50);
-    Sleep(3000);
+    Sleep(2000
+    );
     system("cls");
 
     cout << endl;
@@ -113,5 +114,11 @@ void mainMenu()
     {
         system("cls");
         credits();
+    }
+    else
+    {
+        system("CLS");
+        mainMenu();
+        
     }
 }
